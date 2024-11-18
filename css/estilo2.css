@@ -1,0 +1,118 @@
+/* Reset básico */
+body, h1, h2, h3, h4, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #343a40;
+    padding: 10px;
+}
+
+header {
+    background: #13409b;
+    /*#34ee97*/
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+main {
+    margin: 20px auto;
+    max-width: 1200px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.historia h2, .titulo {
+    font-size: 1.8rem;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.historia img {
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.contenedor1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.caja {
+    flex: 1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #dee2e6;
+}
+
+table th {
+    background: #13409b;
+    color: white;
+}
+
+section h2 {
+    margin-top: 20px;
+}
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+form input, form select, form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+form button {
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #6c757d;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .contenedor1 {
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+}

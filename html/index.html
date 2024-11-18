@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="MiPagina" content="Asignación tarea en clase 01">
+        <title>Mi Página</title>
+        <link rel="stylesheet" href="../css/estilo1.css">
+    </head>
+    <body>
+        <header>
+            <h1 style="text-align: center">Mi Página Web</h1>
+        </header>
+        <main>
+            <br>
+            <section class="historia">
+                <h2 class="anclaje1">Historia</h2>
+                <div class="contenedor1">
+                    <div>
+                        <img src="../multimedia/perfil.png" alt="Foto Perfil" height="170px">
+                    </div>
+                    <div class="caja">
+                        <h4>Juan David Ballesteros Albarán</h3>
+                        <p>Lorem ipsum dolor sit amet, <b>consectetur adipiscing elit.</b> Nam nec semper eros, et gravida turpis. Nunc sit amet nisi eu mauris maximus posuere sed ac dolor. Ut ut dolor diam. Donec sit amet imperdiet dui. Aenean molestie non lectus eget gravida. Curabitur consequat nisl eget ex varius, quis vehicula nulla vestibulum. Maecenas id est massa. In ex neque, vehicula at metus nec, semper porttitor neque. Sed at justo non ex vehicula aliquet. Nulla eleifend odio sapien, eu pellentesque leo gravida convallis. Vivamus enim leo, pretium vitae ex in, vestibulum posuere tortor. Nulla tempor at erat a consequat. Nullam vehicula vulputate arcu sit amet pulvinar. Suspendisse nec massa orci. Vestibulum eget venenatis justo. Vestibulum finibus auctor magna, et eleifend mi interdum non.</p>     
+                    </div>
+                    <div class="caja">
+                        <p>Nullam <i>pellentesque enim tempus risus fringilla elementum</i>. Sed sit amet consectetur neque. Etiam urna tellus, lobortis eu congue et, condimentum ac dui. Vivamus arcu massa, malesuada at odio ut, dignissim pellentesque augue. Duis vitae hendrerit nisi. Sed imperdiet felis vitae auctor ultricies. Donec nec elit et lorem gravida maximus. Vivamus cursus ut erat eget dictum. Pellentesque malesuada pretium ante, at aliquam turpis lacinia sit amet. Aenean dui orci, condimentum vel justo a, egestas luctus enim. Integer ut mattis augue. Cras fermentum gravida ligula non vehicula. Aenean eu efficitur neque. <u>Fusce arcu erat, lacinia at imperdiet nec, facilisis vel eros.</u></p>
+                    </div>
+                </div>
+
+                <hr>
+                <br>
+                <div id="contenedor2">
+                    <h4 class="titulo">Académica</h4>
+                    <div class="contenedor3">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>ASIGNATURA</th>
+                                    <th>NOTA</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Fundamentos de Programación</td>
+                                    <td>2,5</td>
+                                </tr>
+                                <tr>
+                                    <td>Estructuras de Datos</td>
+                                    <td>3,3</td>
+                                </tr>
+                                <tr>
+                                    <td>Programación Orientada Objetos</td>
+                                    <td>3,6</td>
+                                </tr>
+                                <tr>
+                                    <td>Bases de Datos</td>
+                                    <td>3,0</td>
+                                </tr>
+                            </tbody>
+                        </table>
+    
+                        <br>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>PROMEDIO</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>3,1</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <br>
+            <hr>
+            <section class="contenedor4">
+                <div>
+                    <section class="anclaje1">
+                        <h2>Textos Tipo Código</h2>
+                        <p>Ejemplo de una etiqueta de anclaje HTML:</p>
+                        <code>&lt;a href="https://www.ejemplo.com.co"&gt;Visitar&lt;/a&gt;</code>
+                    </section>
+    
+                    <br>
+                    <section class="anclaje1">
+                        <h2>Audio</h2>
+                        <p>Ejemplo de un audio en HTML:</p>
+                        <audio controls>
+                            <source src="../multimedia/Sexy Bich.MP3" type="audio/mpeg">
+                        </audio>
+                    </section>
+                </div>
+                
+                <br>
+                <section class="anclaje2">
+                    <h2>Imagen</h2>
+                    <p>Ejemplo de una imagen en HTML:</p>
+                    <img src="../multimedia/mascota.png" alt="">
+                </section>
+
+                <br>
+                <section class="anclaje2">
+                    <h2>Video</h2>
+                    <p>Ejemplo de un iframe en HTML:</p>
+                    <iframe width="438" height="246" src="https://www.youtube.com/embed/jMyvL4c-S2k" title="Canadá tendrá la montaña rusa más alta, más rápida y más larga del mundo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </section>
+            </section>
+            
+            <br>
+            <section id="formulario">
+                <div class="formulario1">
+                    <h2>Formulario</h2>
+                    <p>¿Qué te pareció mi página?</p>
+                    <form action="#" method="POST">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" required>
+
+                        <label for="nombre">Teléfono</label>
+                        <input type="text" id="telefono" name="telefono" required>
+                        
+                        <label for="nombre">Correo</label>
+                        <input type="email" id="correo" name="correo" required>
+        
+                        <label for="fecha_nacimiento">Fecha de Solicitud</label>
+                        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+        
+                        <label for="escolaridad">Nivel Escolaridad</label>
+                        <select name="escolaridad" id="escolaridad">
+                            <option value="" disabled selected>Seleccione su escolaridad</option>
+                            <option value="primaria">Primaria</option>
+                            <option value="secundaria">Secundaria</option>
+                            <option value="tecnico">Técnico</option>
+                            <option value="tecnologo">Tecnólogo</option>
+                            <option value="universidad">Universidad</option>
+                            <option value="posgrado">Posgrado</option>
+                        </select>
+
+                        <label for="sugerencia">Sugerencia</label>
+                        <input type="text" id="sugerencia" name="sugerencia" required>
+        
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </section>
+
+            <br>
+            <section class="redes">
+                <h2 class="anclaje1">Redes Sociales</h2>
+                <div style="text-align: center;">
+                    <img src="../multimedia/redes_sociales.png" usemap="#mapa-img" id="img2">
+                    <map name="mapa-img" >
+                        <area shape="circle" alt="Instagram" target="_blank" href="https://www.instagram.com/juan_david_504/" coords="42,45,35">
+                        <area shape="circle" alt="Twitter"   target="_blank" href="#SinDireccion"                             coords="40,132,34">
+                        <area shape="circle" alt="WhatsApp"  target="_blank" href="https://wa.me/qr/2JPZCLKDOHFBN1"           coords="132,133,36">
+                        <area shape="poly"   alt="Facebook"  target="_blank" href="https://www.facebook.com/juandab04/"       coords="141,-1,159,14,157,35,162,50,144,71,114,73,100,53,102,37,115,9">
+                    </map>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p style="text-align: center">05 / 11 / 2024 Sitio Web</p>
+        </footer>
+    </body>
+</html>
+
+<!-- Etiquetas adicionales: <div> <br> <table> <tr> <th> <hr> <td> <b> <i> <u> <code> <map> <area> -->
